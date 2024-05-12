@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-attachment: fixed;
+    background: #FFFFFF url(/img/Paper.png) center top;
+}
+
+/*Estilos del encabezado*/
+.gradiente {
+    width: 100%;
+    height: 230px;
+    background: linear-gradient(140deg,#0099ff8f 0%, #0066cc38 42%, #61a8ff0c 100%);
+    backdrop-filter: blur(2px);
+}
+
+.header h1, h2 {
+    padding-top: 30px;
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #334155;
+    font-weight: 800;
+}
+
+.header h2 {
+    padding-top: 7px;
+    font-size: .8em;
+    color: #64748B;
+    font-weight: 500;
+}
+
+nav {
+    text-align: center;
+    margin-top: 27px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 17px;
+}
+nav li{
+    display: inline-block;
+}
+
+nav a {
+    padding: 7px;
+    border-radius: 20px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-size: .7em;
+}
+
+nav i {
+    padding-right: 2px;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+a.web {
+    border: 2px solid #7C3AED;
+    color: #7C3AED;
+    background-color: #F6F3FF;
+}
+
+a.linkedin {
+    border: 2px solid #0A66C2;
+    color: #0A66C2;
+    background-color: #F1F8FF;
+}
+
+a.github {
+    border: 2px solid #222222;
+    color: #222222;
+    background-color: #F2F2F2;
+}
+
+a.web:hover {
+    background-color: #7C3AED;
+    color: #F6F3FF;
+}
+
+a.linkedin:hover {
+    background-color: #0A66C2;
+    color: #F1F8FF;
+}
+
+a.github:hover {
+    background-color: #222222;
+    color: #F2F2F2;
+}
+
+
+.perfil {
+    width: 110px;
+    height: 125px;
+    border-radius: 50%;
+    border: 2px solid #334155cb;
+    position: relative;
+    top: 25px;
+    z-index: 2;
+    left: 46%;
+}
+
+
+
+
+
