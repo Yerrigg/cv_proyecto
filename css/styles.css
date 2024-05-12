@@ -6,8 +6,9 @@
 }
 
 body {
-    background-attachment: fixed;
     background: #FFFFFF url(/img/Paper.png) center top;
+    background-attachment: fixed;
+    /* background-size: cover; */
 }
 
 /*Estilos del encabezado*/
@@ -100,7 +101,6 @@ a.github:hover {
     color: #F2F2F2;
 }
 
-
 .perfil {
     width: 110px;
     height: 125px;
@@ -112,7 +112,58 @@ a.github:hover {
     left: 46%;
 }
 
+.perfil:hover{
+    border: 3px solid #35e235;
+}
 
+/*Seccion de contacto*/
+article {
+    border-bottom: 2px solid #E2E8F0;
+    width: 50%;
+    height: 50px;
+    margin: 80px auto;
+}
 
+h3 {
+    text-align: left;
+    padding-top: 0;
+    display: inline-block;
+    font-size: 1.2em;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    color: #334155;
+}
 
+.contacto div {
+    margin-top: 5px;
+    float: right;
+}
+
+.contacto a {
+    /* margin-right: 15px; */
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-size: .7em;
+    color: #334155;
+    text-decoration: none;
+}
+
+.email {
+    margin-left: 25px;
+}
+
+.email:visited{
+    color: #334155;
+}
+
+.email:hover{
+    text-decoration: none;
+    color: #0A66C2;
+}
+
+.phone:hover{
+    color: #0A66C2;
+}
+
+/*Seccion Sobre mi*/
 
