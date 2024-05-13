@@ -121,7 +121,11 @@ article {
     border-bottom: 2px solid #E2E8F0;
     width: 50%;
     height: 50px;
-    margin: 80px auto;
+    margin: auto;
+}
+
+article.contacto {
+    margin: 80px auto 25px;
 }
 
 h3 {
@@ -134,16 +138,16 @@ h3 {
     color: #334155;
 }
 
-.contacto div {
+.contacto div, .educacion div {
     margin-top: 5px;
     float: right;
 }
 
-.contacto a {
+.contacto a, .sobre-mi p, .campo, .educacion strong, .educacion i, .pie {
     /* margin-right: 15px; */
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-weight: 600;
-    font-size: .7em;
+    font-weight: 400;
+    font-size: .8em;
     color: #334155;
     text-decoration: none;
 }
@@ -166,4 +170,102 @@ h3 {
 }
 
 /*Seccion Sobre mi*/
+.sobre-mi {
+    margin-bottom: 25px;
+    height: 100px;
+}
 
+.sobre-mi p {
+    font-size: .9em;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+
+/*SEccion informacion personal*/
+.informacion-personal{
+    height: 200px;
+}
+
+table {
+    margin-top: 10px;
+    line-height: 1.8;
+}
+
+
+.sub-titulo {
+    font-size: .9em;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    color: #334155;
+    
+}
+
+.campo {
+    margin-left: 50px;
+    margin-right: 20px;
+    padding-left: 50px;  
+}
+/*Seccion educacion*/
+.educacion{
+    margin: 20px auto 25px;
+}
+
+.educacion i {
+    margin-left: 25px;
+    word-spacing: .6em;
+}
+
+/*Seccion skills and tools*/
+.skills{
+    height: 320px;
+}
+
+.skills img {
+    width: 40px;
+    height: 40px;
+}
+
+.skills ul {
+    list-style-type: none;
+    padding-left: 17px;
+    float: right;
+}
+
+.skills li {
+    display: inline-block;
+    margin-top: 12px;
+    
+}
+
+.skills h5 {
+    padding: 7px;
+    border-radius: 7px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 600;
+    font-size: .7em;
+    display: inline-block;
+    border-bottom: 2px solid #64748B;
+    color: #64748B;
+    background-color: #F1F5F9;
+}
+
+.divi {
+    margin-top: 7px;
+}
+.skills div {
+    height: 90px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/*Seccion footer*/
+.pie {
+    width: 50%;
+    margin: 10px auto;
+}
+
+.pie small {
+    float: right;
+    padding: 0 0 15px;
+}
